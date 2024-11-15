@@ -1,0 +1,8 @@
+#!/home/students/2024-2/u60212231/git/mjubackend/chat_server/chat_client-main/.venv/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pyarmor.pyarmor import main_entry
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main_entry())
