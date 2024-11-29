@@ -15,6 +15,7 @@ logging.basicConfig(level=logging.DEBUG)
 naver_client_id = 'iaW1KRZ1edXS6Gk2NsWq'
 naver_client_secret = 'XJ1Wr1VRnu'
 naver_redirect_uri = 'http://mjubackend.duckdns.org:10125/auth'
+# naver_redirect_uri = 'http://mylb-231178348.ap-northeast-2.elb.amazonaws.com/memo/auth'
 
 # '''
 #   실습서버에서 사용할 경우 http://mjubackend.duckdns.org:본인포트번호/auth 로 하고,
